@@ -134,7 +134,7 @@ Você pode usar todas as cores disponíveis no CounterStrikeSharp no prefixo do 
 
 **Exemplo:**
 ```json
-"ChatPrefix": "{Gold} ⋆ {Blue}Pitu{Gold}HvH{Gold} ⋆"
+"ChatPrefix": " {Gold} ⋆ {Blue}Pitu{Gold}HvH{Gold} ⋆"
 ```
 
 ---
