@@ -201,5 +201,5 @@ Encontrou um bug ou tem uma sugestão? Abra uma [issue](../../issues)!
 ---
 
 <p align="center">
-  <b>Feito com ❤️ para a comunidade brasileira de CS2</b>
+  <b>Feito para a comunidade de HvH BR de CS2</b>
 </p>
