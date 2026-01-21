@@ -25,7 +25,7 @@ public partial class Cs2EssentialsConfig : BasePluginConfig
     [JsonPropertyName("AllowSettingsPrint")] public bool AllowSettingsPrint { get; set; } = true;
     [JsonPropertyName("AllowResetScore")] public bool AllowResetScore { get; set; } = true;
     [JsonPropertyName("AllowRageQuit")] public bool AllowRageQuit { get; set; } = true;
-    [JsonPropertyName("ChatPrefix")] public string ChatPrefix { get; set; } = "{Gold}⋆ {Blue}Pitu{Gold}HvH {Gold}⋆";
+    [JsonPropertyName("ChatPrefix")] public string ChatPrefix { get; set; } = "{Gold}⋆ {Blue}Pitu{Gold}HvH {Gold}⋆{Default}";
     [JsonPropertyName("CustomVoteSettings")] public Cs2CustomVoteSettings CustomVoteSettings { get; set; } = new();
     [JsonPropertyName("ConfigVersion")] public override int Version { get; set; } = 4;
 }
