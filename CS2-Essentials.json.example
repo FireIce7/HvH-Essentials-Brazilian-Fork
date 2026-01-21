@@ -1,0 +1,21 @@
+{
+  "RapidFireFixMethod": 1,
+  "RapidFireReflectScale": 1,
+  "AllowedAwpCount": 1,
+  "AllowedScoutCount": -1,
+  "AllowedAutoSniperCount": -1,
+  "UnmatchedFriendlyFire": true,
+  "RestrictTeleport": true,
+  "AllowAdPrint": false,
+  "AllowSettingsPrint": true,
+  "AllowResetScore": true,
+  "AllowRageQuit": true,
+  "ChatPrefix": "{Gold} ⋆ {Blue}Pitu{Gold}HvH{Gold} ⋆",
+  "CustomVoteSettings": {
+    "FriendlyFireVote": false,
+    "TeleportFixVote": false,
+    "RapidFireVote": "full",
+    "Style": "center"
+  },
+  "ConfigVersion": 4
+}
