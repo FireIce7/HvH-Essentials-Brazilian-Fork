@@ -24,11 +24,7 @@ public class ResetScore
     [ConsoleCommand("css_rs", "Reset score")]
     [ConsoleCommand("css_resetscore", "Reset score")]
     [ConsoleCommand("rs", "Reset score")]
-    [ConsoleCommand("RS", "Reset score")]
-    [ConsoleCommand("Rs", "Reset score")]
-    [ConsoleCommand("rS", "Reset score")]
     [ConsoleCommand("resetscore", "Reset score")]
-    [ConsoleCommand("RESETSCORE", "Reset score")]
     public void OnResetScore(CCSPlayerController? player, CommandInfo inf)
     {
         if (!hvh_resetscore.Value)
@@ -42,7 +38,7 @@ public class ResetScore
         if (player is { Score: 0, MVPs: 0 } && 
             stats is { Kills: 0, HeadShotKills: 0, Deaths: 0, Assists: 0, UtilityDamage: 0, Damage: 0, Objective: 0 })
         {
-            player.PrintToChat($"{ChatUtils.FormatMessage(_plugin.Config.ChatPrefix)} Seus status ja estou zerados.");
+            player.PrintToChat($"{ChatUtils.FormatMessage(_plugin.Config.ChatPrefix)} Seus status ja estão zerados.");
             return;
         }
         

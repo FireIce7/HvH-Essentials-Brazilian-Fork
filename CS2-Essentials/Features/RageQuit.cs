@@ -25,11 +25,7 @@ public class RageQuit
     [ConsoleCommand("css_rq", "Rage quit")]
     [ConsoleCommand("css_ragequit", "Rage quit")]
     [ConsoleCommand("rq", "Rage quit")]
-    [ConsoleCommand("RQ", "Rage quit")]
-    [ConsoleCommand("Rq", "Rage quit")]
-    [ConsoleCommand("rQ", "Rage quit")]
     [ConsoleCommand("ragequit", "Rage quit")]
-    [ConsoleCommand("RAGEQUIT", "Rage quit")]
     public void OnRageQuit(CCSPlayerController? player, CommandInfo inf)
     {
         if (!hvh_ragequit.Value)

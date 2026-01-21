@@ -10,7 +10,7 @@
   "AllowSettingsPrint": true,
   "AllowResetScore": true,
   "AllowRageQuit": true,
-  "ChatPrefix": "{Gold} ⋆ {Blue}Pitu{Gold}HvH{Gold} ⋆",
+  "ChatPrefix": "{Gold}⋆ {Blue}Pitu{Gold}HvH {Gold}⋆",
   "CustomVoteSettings": {
     "FriendlyFireVote": false,
     "TeleportFixVote": false,
